@@ -1,0 +1,16 @@
+com\uap\fp\modeldao\UsuarioDAO.class
+com\uap\fp\model\Residuo.class
+com\uap\fp\model\TipoReciclaje.class
+com\uap\fp\model\Dashboard.class
+com\uap\fp\controller\UsuarioController.class
+com\uap\fp\interfaces\ReciclajeInterfaces.class
+com\uap\fp\modeldao\DashboardDAO.class
+com\uap\fp\interfaces\DashboardInterfaces.class
+com\uap\fp\modeldao\ReciclajeDAO.class
+com\uap\fp\model\Reciclaje.class
+com\uap\fp\config\Conexion.class
+com\uap\fp\controller\DashboardController.class
+com\uap\fp\controller\ReciclajeController.class
+com\uap\fp\interfaces\UsuarioInterfaces.class
+com\uap\fp\model\CentroAcopio.class
+com\uap\fp\model\Usuario.class
