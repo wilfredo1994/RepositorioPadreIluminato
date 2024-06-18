@@ -60,6 +60,9 @@ public class UsuarioController extends HttpServlet {
             throws ServletException, IOException {
 
     }
+    
+    //Nosotros
+    
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
@@ -241,5 +244,5 @@ public class UsuarioController extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
+    //Contacto
 }
