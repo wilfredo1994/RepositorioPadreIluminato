@@ -7,6 +7,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="Donar/donar.jsp">Donar</a></li>
+                <li class="nav-item"><a class="nav-link" href="MagoSolidario/mago-solidario.jsp">Mago Solidario</a></li>
                 <li class="nav-item"><a class="nav-link" href="Nosotros/nosotros.jsp">Nosotros</a></li>
                 <li class="nav-item"><a class="nav-link" href="#portfolio">Portafolio</a></li>
                 <li class="nav-item"><a class="nav-link" href="Niveles/niveles.jsp">Niveles</a></li>
