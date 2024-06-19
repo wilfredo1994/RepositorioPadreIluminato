@@ -4,7 +4,7 @@
             <div class="col-lg-12 text-lg-center">
                 <p class="text-muted mb-0">Colegio Padre Iluminato - Av. Pedro Miota 221 Zona B, San Juan de Miraflores. Central Telefónica: (01) 4502767</p>
                 <p class="text-muted mb-0">Copyright (c) San Juan de Miraflores Padre Iluminato</p>
-                <p class="text-muted mb-0">Desarrollado por el Equipo Informáticos de la I.E</p>
+                <p class="text-muted mb-0">Desarrollado por el Grupo 5, 3er Ciclo </p>
                 <p class="text-muted mb-0">Derechos Reservados</p>
             </div>
         </div>

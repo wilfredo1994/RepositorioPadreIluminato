@@ -10,16 +10,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Nosotros</title>
-        <link rel="icon" type="image/x-icon" href="../../content/assets/favicon.ico" />      
+        <link rel="icon" type="image/x-icon" href="content/assets/favicon.ico" />      
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>        
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />                
-        <link href="../../content/css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="content/css/styles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         
         <!-- Navigation-->
-        <%@include file="../menu.jsp" %>   
+        <%@include file="../menu2.jsp" %>   
         
       
         <section class="page-section pb-5 mb-0" id="">
@@ -37,7 +37,7 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid rounded" src="../../content/assets/img/nosotros/1.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/nosotros/1.jpg" alt="..." />
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-6">
-                        <img class="img-fluid rounded" src="../../content/assets/img/nosotros/2.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/nosotros/2.jpg" alt="..." />
                     </div>
                     <div class="col-md-6">
                         <h1 class="text-center">Quienes Somos</h1>
@@ -72,7 +72,7 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid rounded" src="../../content/assets/img/nosotros/3.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/nosotros/3.jpg" alt="..." />
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-6">
-                       <img class="img-fluid rounded" src="../../content/assets/img/nosotros/4.jpg" alt="..." /> 
+                       <img class="img-fluid rounded" src="content/assets/img/nosotros/4.jpg" alt="..." /> 
                     </div>
                     <div class="col-md-6">
                         <h1 class="text-center">Visión</h1>
@@ -101,7 +101,7 @@
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>   
         <!--<script src="../content/vendor/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>-->
-        <script src="../../content/js/scripts.js" type="text/javascript"></script>
+        <script src="content/js/scripts.js" type="text/javascript"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         
     </body>

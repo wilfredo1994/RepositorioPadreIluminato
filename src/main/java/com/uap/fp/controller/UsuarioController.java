@@ -36,34 +36,38 @@ public class UsuarioController extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
+    String Home = "views/Index.jsp";
     //Configuraciones
     String acopio = "views/Configuracion/configuracion.jsp";
     String limite = "views/Configuracion/configuracion.jsp";
-    
+
     //Administracion
     String departamento = "views/Administracion/administracion.jsp";
     String distrito = "views/Administracion/administracion.jsp";
     String centro = "views/Administracion/administracion.jsp";
     String usuario = "views/Administracion/administracion.jsp";
-    
+
     //Dashboard
-    String dashboard="views/Dashboard/dashboard.jsp";
-    
+    String dashboard = "views/Dashboard/dashboard.jsp";
+
     //Reciclaje
-    String registro1="views/Reciclaje/reciclaje.jsp";
-    String reportes1="views/Reciclaje/reportes.jsp";
-    
+    String registro1 = "views/Reciclaje/reciclaje.jsp";
+    String reportes1 = "views/Reciclaje/reportes.jsp";
+
     //Residuos
-    String registro2="views/Residuos/residuos.jsp";
-    String reportes2="views/Residuos/reportes.jsp";
+    String registro2 = "views/Residuos/residuos.jsp";
+    String reportes2 = "views/Residuos/reportes.jsp";
+
+    //Nosotros
+    String nosotros = "views/Nosotros/nosotros.jsp";
+    String portafolio = "views/Index.jsp#portfolio";
+
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
     }
-    
-    //Nosotros
-    
 
+    //Nosotros
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -73,7 +77,6 @@ public class UsuarioController extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    
     private String construirJSON(List<TipoReciclaje> listaDatos) {
         // Construir el JSON con los datos obtenidos
         // Implementa tu lógica específica aquí
@@ -111,10 +114,9 @@ public class UsuarioController extends HttpServlet {
 
         return jsonBuilder.toString();
     }
-    
+
     private List<TipoReciclaje> obtenerDatosDesdeModelo() {
-        
-        
+
         // Crear una lista de personas
         List<TipoReciclaje> recicla = new ArrayList<>();
 
@@ -122,24 +124,22 @@ public class UsuarioController extends HttpServlet {
 //        recicla.add(new TipoReciclaje(1,"Plastico", 500));
 //        recicla.add(new TipoReciclaje(2,"Papel", 250));
 //        recicla.add(new TipoReciclaje(3,"Vidrio", 120));
-        
         return recicla;
     }
-    
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
-        String acceso="";
-        String action=request.getParameter("accion");
-                
+        String acceso = "";
+        String action = request.getParameter("accion");
+
 //        if(action.equalsIgnoreCase("listar")){
 //            acceso=listar;
 //        }
-        
         switch (action) {
             case "departamento":
-                acceso=departamento;
+                acceso = departamento;
                 break;
             case "pye":
                 List<TipoReciclaje> listaDatos = obtenerDatosDesdeModelo();
@@ -158,46 +158,55 @@ public class UsuarioController extends HttpServlet {
                 out.close();
                 break;
             case "inicio":
-                acceso=dashboard;
-                break; 
+                acceso = dashboard;
+                break;
             case "distrito":
-            acceso=distrito;
-                break; 
+                acceso = distrito;
+                break;
             case "centro":
-            acceso=centro;
-                break; 
+                acceso = centro;
+                break;
             case "usuario":
-            acceso=usuario;
-                break; 
+                acceso = usuario;
+                break;
             case "acopio":
-                acceso=acopio;
-                break; 
+                acceso = acopio;
+                break;
             case "limite":
-                acceso=limite;
-                break; 
+                acceso = limite;
+                break;
             case "registro1":
-                ReciclajeDAO recdao=new ReciclajeDAO();                
+                ReciclajeDAO recdao = new ReciclajeDAO();
                 List<Reciclaje> listaRec = recdao.listar();
                 request.setAttribute("datosLista", listaRec);
-                acceso=registro1;
-                break;      
+                acceso = registro1;
+                break;
             case "reportes1":
-                ReciclajeDAO recdaor=new ReciclajeDAO();                
+                ReciclajeDAO recdaor = new ReciclajeDAO();
                 List<Reciclaje> listaRecr = recdaor.listarReporte();
-                request.setAttribute("datosLista", listaRecr);                
-                acceso=reportes1;
-                break; 
+                request.setAttribute("datosLista", listaRecr);
+                acceso = reportes1;
+                break;
             case "registro2":
-                acceso=registro2;
-                break;      
+                acceso = registro2;
+                break;
             case "reportes2":
-                acceso=reportes2;
-                break;      
+                acceso = reportes2;
+                break;
+            case "nosotros":
+                acceso = nosotros;
+                break;
+            case "Home":
+                acceso = Home;
+                break;
+            case "Portafolio":
+                acceso = portafolio;
+                break;
             default:
                 throw new AssertionError();
         }
-        
-        request.getRequestDispatcher(acceso).forward(request, response);              
+
+        request.getRequestDispatcher(acceso).forward(request, response);
     }
 
     /**
@@ -215,24 +224,30 @@ public class UsuarioController extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         String accion = request.getParameter("accion");
         UsuarioDAO userdao = new UsuarioDAO();
-        Usuario usr= new Usuario();
+        Usuario usr = new Usuario();
+        String acceso = "";
         List<Usuario> lst = null;
         switch (accion) {
             case "Ingresar":
-                String clave = request.getParameter("txtclave");         
+                String clave = request.getParameter("txtclave");
                 String usuario = request.getParameter("txtusuario");
-                usr = userdao.validar(usuario, clave);                
-                if(usr.getCorreo()!=null){                
-                    RequestDispatcher vista=request.getRequestDispatcher(dashboard);
+                usr = userdao.validar(usuario, clave);
+                if (usr.getCorreo() != null) {
+                    RequestDispatcher vista = request.getRequestDispatcher(dashboard);
                     vista.forward(request, response);
-                }else{
-                    response.sendRedirect("views/Index.jsp");                    
-                }                
-                break;                    
+                } else {
+                    acceso = Home;
+                }
+                break;
+            case "nosotros":
+                RequestDispatcher vista = request.getRequestDispatcher(nosotros);
+                vista.forward(request, response);
+                break;
             default:
                 response.sendRedirect("views/Index.jsp");
-                
+
         }
+
     }
 
     /**
