@@ -36,18 +36,24 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         <h4 class="my-3">Pastoral mes Mariano</h4>
-                        <img class="img-fluid" src="content/assets/img/organizacion/1.jpg" alt="..." />
-                        <p class="text-muted mt-4">Es el ámbito donde se planifica, ejecuta y evalúa las actividades pastores propias para ser desarrollado por los alumnos.</p>
+                        <img class="img-fluid" src="../content/assets/img/organizacion/1.jpg" alt="..." />
+                        <p class="text-muted mt-4">El proceso de evangelización cada año se fortalece con la oración más común de los cristianos,el rezo del santo rosario en los Grupos Eclesiales y especialmente
+                            en las familias,  por aquello que “familia que reza unida permanece unida”.
+                        </p>
                     </div>
                     <div class="col-md-4">
                         <h4 class="my-3">Capilla de la I.E</h4>
-                        <img class="img-fluid" src="content/assets/img/organizacion/2.jpg" alt="..." />
-                        <p class="text-muted mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <img class="img-fluid" src="../content/assets/img/organizacion/2.jpg" alt="..." />
+                        <p class="text-muted mt-4">Medio por el cual se consolida la participación del personal del colegio en diversas actividades espirituales religiosas, como retiros, reflexiones espirituales,
+                            jornadas, campañas solidarias, entre otras.
+                        </p>
                     </div>
                     <div class="col-md-4">
                         <h4 class="my-3">Catequesis</h4>
-                        <img class="img-fluid" src="content/assets/img/organizacion/3.jpg" alt="..." />
-                        <p class="text-muted mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <img class="img-fluid" src="../content/assets/img/organizacion/3.jpg" alt="..." />
+                        <p class="text-muted mt-4">Medio por el cual se consolida la participación del personal del colegio en diversas actividades espirituales religiosas, como retiros, reflexiones espirituales,
+                            jornadas, campañas solidarias, entre otras.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -114,9 +120,6 @@
                                 </div>
                                 <img class="img-fluid" src="content/assets/img/portfolio/4.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
@@ -128,9 +131,6 @@
                                 </div>
                                 <img class="img-fluid" src="content/assets/img/portfolio/5.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -142,9 +142,6 @@
                                 </div>
                                 <img class="img-fluid" src="content/assets/img/portfolio/6.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                            </div>
                         </div>
                     </div>
                     <div class="text-center">
@@ -159,9 +156,6 @@
                                 </div>
                                 <img class="img-fluid" src="content/assets/img/portfolio/7.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
@@ -173,9 +167,6 @@
                                 </div>
                                 <img class="img-fluid" src="content/assets/img/portfolio/8.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
@@ -187,9 +178,6 @@
                                 </div>
                                 <img class="img-fluid" src="content/assets/img/portfolio/9.jpg" alt="..." />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                            </div>
                         </div>
                     </div>
                 </div>
