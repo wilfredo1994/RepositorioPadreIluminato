@@ -22,378 +22,226 @@
     </head>
     <body class="bg-gradient-primary" id="page-top">
 
-        <!-- Navigation-->
-        <%@include file="menu.jsp" %>        
-        <!-- Masthead-->
+        <!--Navegación-->
+        <%@include file="menu.jsp" %> 
+        
+        <!--Banner-->
         <header class="masthead"></header>
-        <!-- Services-->
-        <section class="page-section pt-5 pb-5" id="">
+        
+        <!--Contenido Organización-->
+        <section class="page-section pt-5 pb-5 mb-0" id="">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Organización</h2>
-                    <h3 class="section-subheading text-muted">Nuestro Colegio  es una institución educativa católica, inspirada en el carisma franciscano capuchino, nacido en la Iglesia, en el seno de una reforma.</h3>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2 class="section-heading text-uppercase">Organización</h2>
+                    <h3 class="section-subheading text-muted mb-0">Nuestro Colegio  es una institución educativa católica,
+                        inspirada en el carisma franciscano capuchino, nacido en la Iglesia, en el seno de una reforma.
+                    </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Contenido Pastoral Semana franciscan-->
+        <section class="page-section bg-light pt-5 pb-5 mb-0" id="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="text-center mt-0 my-3">Pastoral Semana franciscana</h4>
+                        <p class="text-muted mt-4 mb-4">Es el ámbito donde se planifica, ejecuta y evalúa las actividades
+                            pastores propias para ser desarrollado por los alumnos. Comprende la pastoral sacramental
+                            (preparación a la primera comunión y confirmación), la pastoral de animación (coro y equipo
+                            de animación), la pastoral de retiros y jornadas (equipo que colabora en las jornadas de
+                            primaria de alumnos y padres de familia, además de los retiros de secundaria), equipo de
+                            pastoral de fraternidades (las hijas de María, el movimiento de acólitos franciscanos
+                            capuchinos y las brigadas de pastoral) y pastoral social (desarrollo del proyecto Cruzada de amor).
+                        </p>
+                    </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-4">
-                        <h4 class="my-3">Pastoral mes Mariano</h4>
-                        <img class="img-fluid" src="content/assets/img/organizacion/1.jpg" alt="..." />
-                        <p class="text-muted mt-4">El proceso de evangelización cada año se fortalece con la oración más común de los cristianos,el rezo del santo rosario en los Grupos Eclesiales y especialmente
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/1.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/2.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/3.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/4.jpg" alt="..." />
+                    </div>
+                </div>
+                <div class="row text-center mt-3">
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/5.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/6.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/7.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/8.jpg" alt="..." />
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Contenido Pastoral mes Mariano-->
+        <section class="page-section pt-5 pb-5 mt-0" id="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="text-center mt-0 my-3">Pastoral mes Mariano</h4>
+                        <p class="text-muted mt-4 mb-4">El proceso de evangelización cada año se fortalece con la oración
+                            más común de los cristianos,el rezo del santo rosario en los Grupos Eclesiales y especialmente
                             en las familias,  por aquello que “familia que reza unida permanece unida”.
                         </p>
                     </div>
-                    <div class="col-md-4">
-                        <h4 class="my-3">Capilla de la I.E</h4>
-                        <img class="img-fluid" src="content/assets/img/organizacion/2.jpg" alt="..." />
-                        <p class="text-muted mt-4">Medio por el cual se consolida la participación del personal del colegio en diversas actividades espirituales religiosas, como retiros, reflexiones espirituales,
-                            jornadas, campañas solidarias, entre otras.
-                        </p>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/9.jpg" alt="..." />
                     </div>
-                    <div class="col-md-4">
-                        <h4 class="my-3">Catequesis</h4>
-                        <img class="img-fluid" src="content/assets/img/organizacion/3.jpg" alt="..." />
-                        <p class="text-muted mt-4">Medio por el cual se consolida la participación del personal del colegio en diversas actividades espirituales religiosas, como retiros, reflexiones espirituales,
-                            jornadas, campañas solidarias, entre otras.
-                        </p>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/10.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/11.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/12.jpg" alt="..." />
+                    </div>
+                </div>
+                <div class="row text-center mt-3">
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/13.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/14.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/15.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/16.jpg" alt="..." />
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light pt-5 pb-5" id="portfolio">
+        
+        <!--Contenido Capilla de la I.E-->
+        <section class="page-section bg-light pt-5 pb-5 mt-0" id="">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portafolio</h2>
-                    <h3 class="section-subheading text-muted mt-4 mb-4">SEMANA DE ANIVERSARIO POR LOS 60 AÑOS</h3>
-                </div>
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="content/assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Juego de Gincana</div>
-                            </div>
-                        </div>
+                    <div class="col-md-12">
+                        <h4 class="text-center mt-0 my-3">Capilla de la I.E</h4>
+                        <p class="text-muted mt-4 mb-4">Medio por el cual se consolida la participación del personal
+                            del colegio en diversas actividades espirituales religiosas, como retiros, reflexiones
+                            espirituales, jornadas, campañas solidarias, entre otras.
+                        </p>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="content/assets/img/portfolio/2.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Futbol Femenino</div>
-                            </div>
-                        </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/17.jpg" alt="..." />
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="content/assets/img/portfolio/3.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Juego de Bingo</div>
-                            </div>
-                        </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/18.jpg" alt="..." />
                     </div>
-                    <div class="text-center">
-                        <h3 class="section-subheading text-muted mt-4 mb-4">FIESTAS PATRIAS 2018</h3>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/19.jpg" alt="..." />
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="content/assets/img/portfolio/4.jpg" alt="..." />
-                            </a>
-                        </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/20.jpg" alt="..." />
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="content/assets/img/portfolio/5.jpg" alt="..." />
-                            </a>
-                        </div>
+                </div>
+                <div class="row text-center mt-3">
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/21.jpg" alt="..." />
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="content/assets/img/portfolio/6.jpg" alt="..." />
-                            </a>
-                        </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/22.jpg" alt="..." />
                     </div>
-                    <div class="text-center">
-                        <h3 class="section-subheading text-muted mt-4 mb-4">MOMENTOS ILUMINATOS</h3>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/23.jpg" alt="..." />
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="content/assets/img/portfolio/7.jpg" alt="..." />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="content/assets/img/portfolio/8.jpg" alt="..." />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="content/assets/img/portfolio/9.jpg" alt="..." />
-                            </a>
-                        </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/24.jpg" alt="..." />
                     </div>
                 </div>
             </div>
         </section>
-      
-
         
+        <!--Contenido Catequesis-->
+        <section class="page-section pt-5 pb-5 mb-0" id="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                       <h4 class="text-center mt-0 my-3">Catequesis</h4>
+                        <p class="text-muted mt-4 mb-4">Medio por el cual se consolida la participación del personal
+                            del colegio en diversas actividades espirituales religiosas, como retiros, reflexiones
+                            espirituales, jornadas, campañas solidarias, entre otras.
+                        </p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/25.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/26.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/27.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/28.jpg" alt="..." />
+                    </div>
+                </div>
+                <div class="row text-center mt-3">
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/29.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/30.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/31.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/32.jpg" alt="..." />
+                    </div>
+                </div>
+            </div>
+        </section>
         
-        <!-- Footer-->
+        <!--Contenido Imágenes-->
+        <section class="page-section bg-light pt-5 pb-5 mb-0" id="">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                         <img class="img-fluid border border-info rounded" src="content/assets/img/organizacion/33.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-12">
+                         <img class="img-fluid border border-info rounded mt-3" src="content/assets/img/organizacion/34.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-12">
+                         <img class="img-fluid border border-info rounded mt-3" src="content/assets/img/organizacion/35.jpg" alt="..." />
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Footer-->
         <%@include file="footer.jsp" %>        
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="content/assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Juego de Gincana</h2>
-                                    <p class="item-intro text-muted mb-3">Los estudiantes participando por el Aniversario del Colegio.</p>
-                                    <img class="img-fluid d-block mx-auto" src="content/assets/img/portfolio/1.jpg" alt="..." />
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Cerrar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="content/assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="content/assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="content/assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="content/assets/img/portfolio/3.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="content/assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="content/assets/img/portfolio/4.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="content/assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="content/assets/img/portfolio/5.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="content/assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="content/assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>   
         <!--<script src="../content/vendor/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>-->
         <script src="../content/js/scripts.js" type="text/javascript"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
     </body>
-
 </html>
