@@ -60,30 +60,30 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/1.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/1.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/2.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/2.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/3.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/3.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/4.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/4.jpg" alt="..." />
                     </div>
                 </div>
                 <div class="row text-center mt-3">
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/5.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/5.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/6.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/6.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/7.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/7.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/8.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/8.jpg" alt="..." />
                     </div>
                 </div>
             </div>
@@ -103,30 +103,30 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/9.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/9.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/10.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/10.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/11.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/11.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/12.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/12.jpg" alt="..." />
                     </div>
                 </div>
                 <div class="row text-center mt-3">
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/13.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/13.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/14.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/14.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/15.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/15.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/16.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/16.jpg" alt="..." />
                     </div>
                 </div>
             </div>
@@ -146,30 +146,30 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/17.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/17.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/18.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/18.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/19.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/19.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/20.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/20.jpg" alt="..." />
                     </div>
                 </div>
                 <div class="row text-center mt-3">
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/21.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/21.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/22.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/22.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/23.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/23.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/24.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/24.jpg" alt="..." />
                     </div>
                 </div>
             </div>
@@ -189,16 +189,16 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/25.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/25.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/26.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/26.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/27.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/27.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/28.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/28.jpg" alt="..." />
                     </div>
                 </div>
                 <div class="row text-center mt-3">
@@ -206,13 +206,13 @@
                         <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/29.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/30.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/30.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/31.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/31.jpg" alt="..." />
                     </div>
                     <div class="col-md-3">
-                        <img class="img-fluid border border-danger rounded" src="content/assets/img/organizacion/32.jpg" alt="..." />
+                        <img class="img-fluid rounded" src="content/assets/img/organizacion/32.jpg" alt="..." />
                     </div>
                 </div>
             </div>
@@ -223,13 +223,13 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-12">
-                         <img class="img-fluid border border-info rounded" src="content/assets/img/organizacion/33.jpg" alt="..." />
+                         <img class="img-fluid rounded" src="content/assets/img/organizacion/33.jpg" alt="..." />
                     </div>
                     <div class="col-md-12">
-                         <img class="img-fluid border border-info rounded mt-3" src="content/assets/img/organizacion/34.jpg" alt="..." />
+                         <img class="img-fluid rounded mt-3" src="content/assets/img/organizacion/34.jpg" alt="..." />
                     </div>
                     <div class="col-md-12">
-                         <img class="img-fluid border border-info rounded mt-3" src="content/assets/img/organizacion/35.jpg" alt="..." />
+                         <img class="img-fluid rounded mt-3" src="content/assets/img/organizacion/35.jpg" alt="..." />
                     </div>
                 </div>
             </div>
