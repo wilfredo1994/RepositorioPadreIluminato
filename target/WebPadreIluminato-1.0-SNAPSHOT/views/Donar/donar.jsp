@@ -96,8 +96,6 @@
                         <img class="img-fluid rounded" src="content/assets/img/donar/1.jpg" alt="..." />
                     </div>
                 </div>
-                
-                
             </div>
         </section>
         
