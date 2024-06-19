@@ -36,21 +36,21 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         <h4 class="my-3">Pastoral mes Mariano</h4>
-                        <img class="img-fluid" src="../content/assets/img/organizacion/1.jpg" alt="..." />
+                        <img class="img-fluid" src="content/assets/img/organizacion/1.jpg" alt="..." />
                         <p class="text-muted mt-4">El proceso de evangelización cada año se fortalece con la oración más común de los cristianos,el rezo del santo rosario en los Grupos Eclesiales y especialmente
                             en las familias,  por aquello que “familia que reza unida permanece unida”.
                         </p>
                     </div>
                     <div class="col-md-4">
                         <h4 class="my-3">Capilla de la I.E</h4>
-                        <img class="img-fluid" src="../content/assets/img/organizacion/2.jpg" alt="..." />
+                        <img class="img-fluid" src="content/assets/img/organizacion/2.jpg" alt="..." />
                         <p class="text-muted mt-4">Medio por el cual se consolida la participación del personal del colegio en diversas actividades espirituales religiosas, como retiros, reflexiones espirituales,
                             jornadas, campañas solidarias, entre otras.
                         </p>
                     </div>
                     <div class="col-md-4">
                         <h4 class="my-3">Catequesis</h4>
-                        <img class="img-fluid" src="../content/assets/img/organizacion/3.jpg" alt="..." />
+                        <img class="img-fluid" src="content/assets/img/organizacion/3.jpg" alt="..." />
                         <p class="text-muted mt-4">Medio por el cual se consolida la participación del personal del colegio en diversas actividades espirituales religiosas, como retiros, reflexiones espirituales,
                             jornadas, campañas solidarias, entre otras.
                         </p>
@@ -202,7 +202,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Juego de Gincana</h2>
                                     <p class="item-intro text-muted mb-3">Los estudiantes participando por el Aniversario del Colegio.</p>
-                                    <img class="img-fluid d-block mx-auto" src="../content/assets/img/portfolio/1.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="content/assets/img/portfolio/1.jpg" alt="..." />
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Cerrar
@@ -218,7 +218,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="../content/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="content/assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -226,7 +226,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="../content/assets/img/portfolio/2.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="content/assets/img/portfolio/2.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -253,7 +253,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="../content/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="content/assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -261,7 +261,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="../content/assets/img/portfolio/3.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="content/assets/img/portfolio/3.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
@@ -323,7 +323,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="../content/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="content/assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">

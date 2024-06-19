@@ -60,7 +60,11 @@ public class UsuarioController extends HttpServlet {
 
     //Nosotros
     String nosotros = "views/Nosotros/nosotros.jsp";
-    String portafolio = "views/Index.jsp#portfolio";
+    String portafolio = "views/Portafolio/portafolio.jsp";
+    String donar = "views/Donar/donar.jsp";
+    String mago = "views/MagoSolidario/mago-solidario.jsp";
+    String niveles = "views/Niveles/niveles.jsp";
+    String contacto = "views/Contacto/contacto.jsp";
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -201,6 +205,18 @@ public class UsuarioController extends HttpServlet {
                 break;
             case "Portafolio":
                 acceso = portafolio;
+                break;
+            case "Donar":
+                acceso = donar;
+                break;
+            case "MagoSolidario":
+                acceso = mago;
+                break;
+            case "Niveles":
+                acceso = niveles;
+                break;
+            case "Contacto":
+                acceso = contacto;
                 break;
             default:
                 throw new AssertionError();

@@ -7,10 +7,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="UsuarioController?accion=Donar">Donar</a></li>
+                <li class="nav-item"><a class="nav-link" href="UsuarioController?accion=MagoSolidario">Mago Solidario</a></li>                
                 <li class="nav-item"><a class="nav-link" href="UsuarioController?accion=nosotros">Nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" href="../Index.jsp#portfolio">Portafolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="Niveles/niveles.jsp">Niveles</a></li>
-                <li class="nav-item"><a class="nav-link" href="Contacto/contacto.jsp">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="UsuarioController?accion=Portafolio">Portafolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="UsuarioController?accion=Niveles">Niveles</a></li>
+                <li class="nav-item"><a class="nav-link" href="UsuarioController?accion=Contacto">Contacto</a></li>
             </ul>
         </div>
     </div>
