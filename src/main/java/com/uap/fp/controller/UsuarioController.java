@@ -63,6 +63,7 @@ public class UsuarioController extends HttpServlet {
     String portafolio = "views/Portafolio/portafolio.jsp";
     String donar = "views/Donar/donar.jsp";
     String mago = "views/MagoSolidario/mago-solidario.jsp";
+    String reporteador = "views/Reporteador/reporteador.jsp";
     String niveles = "views/Niveles/niveles.jsp";
     String contacto = "views/Contacto/contacto.jsp";
 
@@ -211,6 +212,9 @@ public class UsuarioController extends HttpServlet {
                 break;
             case "MagoSolidario":
                 acceso = mago;
+                break;
+            case "Reporteador":
+                acceso = reporteador;
                 break;
             case "Niveles":
                 acceso = niveles;
