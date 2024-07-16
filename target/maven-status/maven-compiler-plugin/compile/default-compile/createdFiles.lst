@@ -13,4 +13,5 @@ com\uap\fp\controller\DashboardController.class
 com\uap\fp\controller\ReciclajeController.class
 com\uap\fp\interfaces\UsuarioInterfaces.class
 com\uap\fp\model\CentroAcopio.class
+com\uap\fp\model\Donaciones.class
 com\uap\fp\model\Usuario.class

@@ -6,12 +6,17 @@ package com.uap.fp.modeldao;
 
 import com.uap.fp.config.Conexion;
 import com.uap.fp.interfaces.UsuarioInterfaces;
+import com.uap.fp.model.Donaciones;
 import com.uap.fp.model.Usuario;
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
+import oracle.jdbc.OracleType;
+import oracle.jdbc.OracleTypes;
 
 /**
  *
@@ -76,6 +81,48 @@ public class UsuarioDAO implements UsuarioInterfaces {
         }
         
         return user;
+    }
+   
+    @Override
+    public List<Donaciones> ConsultaDonaciones(String nombre, String tipoDonacion, String fechaRegistro, String fechaCompromiso) {
+        
+        List<Donaciones> lista=new ArrayList<>();
+        CallableStatement callableStatement = null;
+        String query= "{call PKG_PERFILPERSONA.PRC_READ_DONACIONES(?,?,?)}";
+        //String query= "select * from usuario";
+        
+        try {
+            
+            //callableStatement = conn.prepareCall(call);
+            callableStatement = cn.establecerConexion().prepareCall(query);
+            
+            callableStatement.setString(1, nombre);
+            callableStatement.setString(2, tipoDonacion);
+            callableStatement.registerOutParameter(3, OracleTypes.CURSOR);
+            callableStatement.executeUpdate();
+            
+            rs = (ResultSet)callableStatement.getObject(3);
+            
+            while(rs.next()){
+                Donaciones donaciones = new Donaciones();
+                
+                donaciones.setIdDonacion(rs.getInt("IDDONACION"));
+                donaciones.setMoneda(rs.getString("MONEDA"));
+                donaciones.setMonto(rs.getDouble("MONTO"));
+                donaciones.setTipoDonacion(rs.getString("TIPODONACION"));
+                donaciones.setNombre(rs.getString("NOMBRE"));
+                donaciones.setDescripcion(rs.getString("DESCRIPCION"));
+                donaciones.setFechaRegistro(rs.getDate("FECHAREGISTRO"));
+                donaciones.setFechaCompromiso(rs.getDate("FECHACOMPROMISO"));
+                lista.add(donaciones);
+            }
+            
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+        
+        return lista;
+        
     }
     
 }

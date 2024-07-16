@@ -4,6 +4,10 @@
  */
 package com.uap.fp.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.uap.fp.config.Conexion;
+import com.uap.fp.model.Donaciones;
 import com.uap.fp.model.Reciclaje;
 import com.uap.fp.model.TipoReciclaje;
 import com.uap.fp.model.Usuario;
@@ -27,6 +31,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "UsuarioController", urlPatterns = {"/UsuarioController"})
 public class UsuarioController extends HttpServlet {
 
+    Conexion cn = new Conexion();
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -63,6 +68,7 @@ public class UsuarioController extends HttpServlet {
     String portafolio = "views/Portafolio/portafolio.jsp";
     String donar = "views/Donar/donar.jsp";
     String mago = "views/MagoSolidario/mago-solidario.jsp";
+    String reporteador = "views/Reporteador/reporteador.jsp";
     String niveles = "views/Niveles/niveles.jsp";
     String contacto = "views/Contacto/contacto.jsp";
 
@@ -137,10 +143,16 @@ public class UsuarioController extends HttpServlet {
         processRequest(request, response);
         String acceso = "";
         String action = request.getParameter("accion");
+        
+        //cn.establecerConexion();
+        //UsuarioDAO pruebadao=new UsuarioDAO();
+        //pruebadao.ConsultaDonaciones("JH", "", "","");
+        
 
 //        if(action.equalsIgnoreCase("listar")){
 //            acceso=listar;
 //        }
+        PrintWriter out=null;
         switch (action) {
             case "departamento":
                 acceso = departamento;
@@ -156,7 +168,7 @@ public class UsuarioController extends HttpServlet {
                 response.setCharacterEncoding("UTF-8");
 
                 // Enviar el JSON como respuesta
-                PrintWriter out = response.getWriter();
+                out = response.getWriter();
                 out.print(json);
                 out.flush();
                 out.close();
@@ -212,11 +224,37 @@ public class UsuarioController extends HttpServlet {
             case "MagoSolidario":
                 acceso = mago;
                 break;
+            case "Reporteador":
+                acceso = reporteador;
+                break;    
             case "Niveles":
                 acceso = niveles;
                 break;
             case "Contacto":
                 acceso = contacto;
+                break;
+            case "ConsultaDonaciones":                                
+                UsuarioDAO pruebadao=new UsuarioDAO();
+//                String nombre = request.getParameter("nombre");
+//                String tipoOperacion = request.getParameter("txtusuario");
+//                String fechaRegistro = request.getParameter("txtclave");
+//                String fechaCompromiso = request.getParameter("txtusuario");
+                
+                String nombre = "JH";
+                String tipoOperacion = "";
+                String fechaRegistro = "";
+                String fechaCompromiso = "";
+                List<Donaciones> lista = pruebadao.ConsultaDonaciones(nombre, tipoOperacion, fechaRegistro,fechaCompromiso);                
+                
+                response.setContentType("application/json");
+                response.setCharacterEncoding("UTF-8");
+                
+                String jsonstr = convertirAJson(lista);
+
+                out = response.getWriter();
+                out.print(jsonstr);
+                out.flush();
+                out.close();
                 break;
             default:
                 throw new AssertionError();
@@ -276,4 +314,18 @@ public class UsuarioController extends HttpServlet {
         return "Short description";
     }// </editor-fold>
     //Contacto
+    
+    public String convertirAJson(List<Donaciones> lista){
+        
+        ObjectMapper mapper = new ObjectMapper();
+        String json="";
+        try {
+            json = mapper.writeValueAsString(lista);
+            System.out.println(json);
+        } catch (JsonProcessingException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+        
+        return json;
+    }
 }

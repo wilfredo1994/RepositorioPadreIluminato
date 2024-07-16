@@ -4,6 +4,7 @@
  */
 package com.uap.fp.interfaces;
 
+import com.uap.fp.model.Donaciones;
 import com.uap.fp.model.Usuario;
 import java.util.List;
 
@@ -15,4 +16,5 @@ public interface UsuarioInterfaces {
     public List listar();
     public Usuario list(int id);
     public Usuario validar(String usuario, String clave);
+    public List<Donaciones> ConsultaDonaciones(String nombre, String tipoDonacion, String fechaRegistro, String fechaCompromiso);
 }
