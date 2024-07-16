@@ -235,15 +235,13 @@ public class UsuarioController extends HttpServlet {
                 break;
             case "ConsultaDonaciones":                                
                 UsuarioDAO pruebadao=new UsuarioDAO();
-//                String nombre = request.getParameter("nombre");
-//                String tipoOperacion = request.getParameter("txtusuario");
-//                String fechaRegistro = request.getParameter("txtclave");
-//                String fechaCompromiso = request.getParameter("txtusuario");
+                String nombre = request.getParameter("nombre");
+                String tipoOperacion = request.getParameter("tipo");
+                String fechaRegistro = request.getParameter("fechaini");
+                String fechaCompromiso = request.getParameter("fechafin");
                 
-                String nombre = "JH";
-                String tipoOperacion = "";
-                String fechaRegistro = "";
-                String fechaCompromiso = "";
+          
+                
                 List<Donaciones> lista = pruebadao.ConsultaDonaciones(nombre, tipoOperacion, fechaRegistro,fechaCompromiso);                
                 
                 response.setContentType("application/json");
