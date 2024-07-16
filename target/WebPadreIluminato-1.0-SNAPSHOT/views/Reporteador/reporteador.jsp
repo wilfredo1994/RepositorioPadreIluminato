@@ -36,7 +36,7 @@
                                         </div>
                                         <div class="col-sm-3">
                                             <label for="inputEmail3">Tipo Donacion</label>
-                                            <input type="text" id="txtNombre" class="form-control">
+                                            <input type="text" id="txtTipoDonacion" class="form-control">
                                         </div>
                                         <div class="col-sm-3">
                                             <label for="inputEmail3">Fecha Registro</label>
@@ -68,19 +68,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Contenido del Formulario -->
-        <section class="page-section bg-light pt-5 pb-5 mb-0" id="contact">
-
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="text-center text-uppercase mb-5">Reporteador</h2>
-                </div>
-                <table id="tblConsultaDonaciones">
-
-                </table>
-            </div>
-        </section>
+        </div>        
 
         <!--Footer-->
         <%@include file="../footer.jsp" %> 

@@ -2,12 +2,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/JavaScript.js to edit this template
  */
-
+cargarAreaBar();
+var btnBuscar = document.getElementById("btnBuscar");
+btnBuscar.onclick = function () {
+cargarAreaBar();
+};
 
 function cargarAreaBar() {
 
+    var nombre = document.getElementById("txtNombre").value;
+    var tipo = document.getElementById("txtTipoDonacion").value;
+    var fechainip = document.getElementById("dtpFechaRegistro").value;
+    var fechafinp = document.getElementById("dtpFechaCompromiso").value;
+    
     var params = {
-        accion: "ConsultaDonaciones"
+        accion: "ConsultaDonaciones",
+        nombre: nombre,
+        tipo: tipo,
+        fechaini: fechainip,
+        fechafin: fechafinp
     };
 
     $.ajax({
@@ -69,5 +82,4 @@ function cargarTable(arraycolumnas, data) {
     document.getElementById("tblConsultaDonaciones").innerHTML = contenido;
 }
 
-cargarAreaBar();
 

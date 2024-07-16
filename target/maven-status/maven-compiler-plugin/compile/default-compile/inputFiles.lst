@@ -1,16 +1,17 @@
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\CentroAcopio.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\controller\DashboardController.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\interfaces\DashboardInterfaces.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\Usuario.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\TipoReciclaje.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\modeldao\DashboardDAO.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\Dashboard.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\interfaces\UsuarioInterfaces.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\controller\UsuarioController.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\Reciclaje.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\modeldao\ReciclajeDAO.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\controller\ReciclajeController.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\config\Conexion.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\interfaces\ReciclajeInterfaces.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\Residuo.java
-C:\Git\RepositorioPadreIluminato\src\main\java\com\uap\fp\modeldao\UsuarioDAO.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\Residuo.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\modeldao\DashboardDAO.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\modeldao\ReciclajeDAO.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\config\Conexion.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\CentroAcopio.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\interfaces\ReciclajeInterfaces.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\controller\DashboardController.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\TipoReciclaje.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\controller\ReciclajeController.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\Usuario.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\Reciclaje.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\Dashboard.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\model\Donaciones.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\controller\UsuarioController.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\interfaces\DashboardInterfaces.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\interfaces\UsuarioInterfaces.java
+D:\Jheisson\Personal\AUTONOMA\3 CICLO\Programacion\RepoV2\RepositorioPadreIluminato\src\main\java\com\uap\fp\modeldao\UsuarioDAO.java
