@@ -226,7 +226,7 @@ public class UsuarioController extends HttpServlet {
                 break;
             case "Reporteador":
                 acceso = reporteador;
-                break;    
+                break;
             case "Niveles":
                 acceso = niveles;
                 break;
